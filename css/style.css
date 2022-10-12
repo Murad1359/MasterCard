@@ -1,0 +1,46 @@
+body{
+    background: black;
+}
+
+.main{
+    width: 400px;
+    height: 200px;
+    background: #fff;
+    position: absolute;
+    top: 36%;
+    left: 36%;
+}
+
+.main::before{
+    content: "";
+    background: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 26%;
+    left: 30%;
+    float: left;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.main::after{
+    content: "";
+    background: orange;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 26%;
+    left: 20%;
+    float: left;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.text{
+    font-weight: 700;
+    font-size: 25px;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+}
